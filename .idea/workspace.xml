@@ -27,13 +27,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7b283f5-d098-4cc7-a0e0-c310ef121d90" name="Default Changelist" comment="Foto splash_photo.jpg" />
+    <list default="true" id="f3320705-d211-4140-be02-44f5aedc0bca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Develop]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -54,7 +56,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1l4AFefacrzGeGKvsJKjE9LPpen" />
+  <component name="ProjectId" id="1kzXzBasIlGVTfnmW9cK2uiWiuk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,11 +65,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.1444644756">
+    <key name="android.template.-1512496070">
       <recent name="com.example.getabed" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     </key>
   </component>
   <component name="RunManager">
@@ -77,7 +85,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="GetABed.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -140,27 +148,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7b283f5-d098-4cc7-a0e0-c310ef121d90" name="Default Changelist" comment="" />
-      <created>1606845887632</created>
+      <changelist id="f3320705-d211-4140-be02-44f5aedc0bca" name="Default Changelist" comment="" />
+      <created>1606704653859</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606845887632</updated>
+      <updated>1606704653859</updated>
     </task>
-    <task id="LOCAL-00001" summary="Añadido Splash_Screen, Activity y XML menu_camas e instancia de función &quot;iniciarSesion()&quot;.">
-      <created>1606886226005</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606886226005</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Foto splash_photo.jpg">
-      <created>1606886373672</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1606886373672</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,23 +168,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Añadido Splash_Screen, Activity y XML menu_camas e instancia de función &quot;iniciarSesion()&quot;." />
-    <MESSAGE value="Foto splash_photo.jpg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Foto splash_photo.jpg" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1854" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1606883121096">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="2217" y="202" key="SettingsEditor" timestamp="1606967920584">
+      <screen x="1792" y="65" width="1920" height="979" />
     </state>
-    <state x="1854" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606883121096" />
-    <state x="1641" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606886380470">
-      <screen x="1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="1641" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606886380470" />
-    <state x="1705" y="162" key="run.anything.popup" timestamp="1606882403846">
-      <screen x="1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="1705" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606882403846" />
+    <state x="397" y="167" key="SettingsEditor/0.25.1792.1015@0.25.1792.1015" timestamp="1606872748026" />
+    <state x="2217" y="202" key="SettingsEditor/0.25.1792.1095/1792.65.1920.979@1792.65.1920.979" timestamp="1606967920584" />
   </component>
 </project>
