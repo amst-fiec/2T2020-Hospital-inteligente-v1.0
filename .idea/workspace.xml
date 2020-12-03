@@ -28,11 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3320705-d211-4140-be02-44f5aedc0bca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_estado_camas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/menu_camas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_camas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/battery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/battery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/battery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/logo_proyecto.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/battery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/battery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +75,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-1512496070">
       <recent name="com.example.getabed" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     </key>
   </component>
   <component name="RunManager">
@@ -165,11 +175,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="167" key="SettingsEditor" timestamp="1606872748026">
-      <screen x="0" y="25" width="1792" height="1015" />
+    <state x="2217" y="202" key="SettingsEditor" timestamp="1606965552269">
+      <screen x="1792" y="65" width="1920" height="979" />
     </state>
     <state x="397" y="167" key="SettingsEditor/0.25.1792.1015@0.25.1792.1015" timestamp="1606872748026" />
+    <state x="2217" y="202" key="SettingsEditor/0.25.1792.1095/1792.65.1920.979@1792.65.1920.979" timestamp="1606965552269" />
   </component>
 </project>
