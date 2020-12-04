@@ -77,15 +77,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateUI(FirebaseUser user){
-        if(user != null){
-            String name = user.getDisplayName();
-            String email = user.getEmail();
-            String photo = String.valueOf(user.getPhotoUrl());
-            System.out.println("Nombre: ");
-            System.out.println(name);
-        } else{
-            System.out.println("Sin Registro");
-        }
+        Intent intent= new Intent(getBaseContext(), Menu.class);
+        startActivity(intent);
     }
 
     @Override
