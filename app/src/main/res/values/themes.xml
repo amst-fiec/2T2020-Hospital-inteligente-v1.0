@@ -13,4 +13,16 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+<<<<<<< HEAD
+=======
+
+    <style name="Theme.GetABed.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.GetABed.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.GetABed.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+>>>>>>> 84d6d040066def26cdbe6b354980c0c526b64ed9
 </resources>

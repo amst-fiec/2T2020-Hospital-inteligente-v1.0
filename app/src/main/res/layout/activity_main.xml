@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -32,3 +33,11 @@
         android:text="Iniciar Sesión" />
 
 </LinearLayout>
+=======
+<LinearLayout:></LinearLayout:>
+
+
+
+
+
+>>>>>>> 84d6d040066def26cdbe6b354980c0c526b64ed9
