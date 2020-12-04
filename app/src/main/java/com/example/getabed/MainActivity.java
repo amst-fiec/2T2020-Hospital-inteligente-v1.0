@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateUI(FirebaseUser user){
-        Intent intent= new Intent(getBaseContext(), Menu.class);
+        Intent intent= new Intent(getBaseContext(), com.example.getabed.Menu.class);
         startActivity(intent);
     }
 
