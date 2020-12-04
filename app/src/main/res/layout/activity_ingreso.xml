@@ -21,13 +21,14 @@
         android:text="Bienvenido"
         android:textSize="50dp" />
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="205dp"
+        android:layout_height="240dp"
         android:layout_marginTop="30dp"
-        app:srcCompat="@drawable/logotipoProyecto1" />
-
+        android:maxHeight="100dp"
+        app:srcCompat="@drawable/logotipo_proyecto1" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -37,9 +38,9 @@
         android:layout_marginTop="30dp"
         android:background="#E7F0F1"
         android:ems="10"
+        android:hint="Usuario"
         android:inputType="textPersonName"
-        android:text="Usuario"
-        android:textSize="40dp" />
+        android:textSize="30dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -49,9 +50,9 @@
         android:layout_marginTop="10dp"
         android:background="#E7F0F1"
         android:ems="10"
+        android:hint="Contraseña"
         android:inputType="textPassword"
-        android:text="Contrasena"
-        android:textSize="40dp"/>
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/button"
@@ -60,8 +61,27 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="25dp"
         android:layout_marginRight="20dp"
+        android:background="#9713AE"
+        android:gravity="center_horizontal"
         android:text="Ingresar"
-        android:textSize="20dp"/>
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="#FF9713AE"
+        android:gravity="center_horizontal"
+        android:onClick="iniciarSesion"
+        android:text="Iniciar Sesión"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
 
 
 </LinearLayout>

@@ -1,6 +1,5 @@
 package com.example.getabed;
 
-<<<<<<< HEAD
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -20,35 +19,18 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-public class MainActivity extends AppCompatActivity {
-
-    static final int GOOGLE_SIGN_IN= 123;
-    FirebaseAuth mAuth;
-    GoogleSignInClient mGoogleSignInClient;
-    Button btn_login;
-
-=======
-import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
-import android.view.View;
-
 import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
-
->>>>>>> 84d6d040066def26cdbe6b354980c0c526b64ed9
+    static final int GOOGLE_SIGN_IN= 123;
+    FirebaseAuth mAuth;
+    GoogleSignInClient mGoogleSignInClient;
+    Button btn_login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-<<<<<<< HEAD
+        setContentView(R.layout.activity_ingreso);
         mAuth = FirebaseAuth.getInstance();
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder
                 (GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -104,18 +86,6 @@ public class MainActivity extends AppCompatActivity {
         } else{
             System.out.println("Sin Registro");
         }
-=======
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
     }
 
     @Override
@@ -138,6 +108,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
->>>>>>> 84d6d040066def26cdbe6b354980c0c526b64ed9
     }
 }

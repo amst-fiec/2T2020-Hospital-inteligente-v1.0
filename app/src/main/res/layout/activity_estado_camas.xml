@@ -4,6 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".EstadoCamas">
 
+    <TextView
+        android:id="@+id/camas_uci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="Camas en UCI"
+        android:background="#FFFFFF"
+        android:textSize="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imv_cama1"
+        android:layout_width="157dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="#47EE6B"
+        android:src="@drawable/cama_desocupada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camas_uci" />
+
+    <ImageView
+        android:id="@+id/imv_cama2"
+        android:layout_width="157dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="56dp"
+        android:background="#FF0F00"
+        android:src="@drawable/cama_ocupada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imv_cama1" />
+
+    <TextView
+        android:id="@+id/txt_cama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="196dp"
+        android:background="#47EE6B"
+        android:padding="10dp"
+        android:text="DESOCUPADO"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imv_cama1"
+        app:layout_constraintTop_toBottomOf="@+id/camas_uci" />
+
+    <TextView
+        android:id="@+id/txt_cama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="152dp"
+        android:background="#FF0F00"
+        android:padding="10dp"
+        android:text="OCUPADA"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imv_cama2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cama1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
