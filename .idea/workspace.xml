@@ -5,12 +5,20 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="BranchesTreeState">
     <expand />
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33512b78-4f0f-49f9-9428-08265987fe17" name="Default Changelist" comment="Agregado vista estado_camas y cambios en activity_ingreso.xml">
@@ -18,28 +26,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ingreso.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ingreso.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Develop]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -51,9 +50,142 @@
         <task path="$PROJECT_DIR$/app">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="cleanup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="cleanup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GetABed" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -155,6 +287,63 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0 [androidDependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="androidDependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0 [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0 [sourceSets]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sourceSets" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -174,13 +363,20 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0 [sourceSets]" />
+        <item itemvalue="Gradle.2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0 [androidDependencies]" />
+        <item itemvalue="Gradle.2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0 [signingReport]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7b283f5-d098-4cc7-a0e0-c310ef121d90" name="Default Changelist" comment="Adicion del Metodo Iniciar sesion y pantalla de inicio de sesión" />
+      <changelist id="33512b78-4f0f-49f9-9428-08265987fe17" name="Default Changelist" comment="Agregado vista estado_camas y cambios en activity_ingreso.xml" />
       <created>1606704653859</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -213,30 +409,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="Adicion del Metodo Iniciar sesion y pantalla de inicio de sesión" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2319" y="423" width="488" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607091127085">
+      <screen x="1792" y="65" width="1920" height="971" />
+    </state>
+    <state x="2319" y="423" width="488" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1792.1095/1792.65.1920.971@1792.65.1920.971" timestamp="1607091127085" />
     <state x="1779" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607052688344">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1607052688344" />
-    <state width="1343" height="221" key="GridCell.Tab.0.bottom" timestamp="1607059634887">
-      <screen x="1792" y="65" width="1920" height="982" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1607061531251">
+      <screen x="1792" y="65" width="1920" height="977" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726389" />
-    <state width="1343" height="221" key="GridCell.Tab.0.bottom/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607059634887" />
-    <state width="1343" height="221" key="GridCell.Tab.0.center" timestamp="1607059634887">
-      <screen x="1792" y="65" width="1920" height="982" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531251" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224617" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1607061531251">
+      <screen x="1792" y="65" width="1920" height="977" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726388" />
-    <state width="1343" height="221" key="GridCell.Tab.0.center/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607059634887" />
-    <state width="1343" height="221" key="GridCell.Tab.0.left" timestamp="1607059634886">
-      <screen x="1792" y="65" width="1920" height="982" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531251" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224616" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1607061531250">
+      <screen x="1792" y="65" width="1920" height="977" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726388" />
-    <state width="1343" height="221" key="GridCell.Tab.0.left/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607059634886" />
-    <state width="1343" height="221" key="GridCell.Tab.0.right" timestamp="1607059634887">
-      <screen x="1792" y="65" width="1920" height="982" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531250" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224616" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1607061531251">
+      <screen x="1792" y="65" width="1920" height="977" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726389" />
-    <state width="1343" height="221" key="GridCell.Tab.0.right/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607059634887" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531251" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224617" />
+    <state width="1878" height="263" key="GridCell.Tab.1.bottom" timestamp="1607061529447">
+      <screen x="1792" y="65" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.1.bottom/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061529447" />
+    <state width="1878" height="263" key="GridCell.Tab.1.bottom/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607060600304" />
+    <state width="1878" height="263" key="GridCell.Tab.1.center" timestamp="1607061529446">
+      <screen x="1792" y="65" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.1.center/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061529446" />
+    <state width="1878" height="263" key="GridCell.Tab.1.center/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607060600303" />
+    <state width="1878" height="263" key="GridCell.Tab.1.left" timestamp="1607061529446">
+      <screen x="1792" y="65" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.1.left/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061529446" />
+    <state width="1878" height="263" key="GridCell.Tab.1.left/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607060600303" />
+    <state width="1878" height="263" key="GridCell.Tab.1.right" timestamp="1607061529447">
+      <screen x="1792" y="65" width="1920" height="977" />
+    </state>
+    <state width="1878" height="263" key="GridCell.Tab.1.right/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061529447" />
+    <state width="1878" height="263" key="GridCell.Tab.1.right/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607060600303" />
     <state x="2217" y="202" key="SettingsEditor" timestamp="1606967920584">
       <screen x="1792" y="65" width="1920" height="979" />
     </state>
