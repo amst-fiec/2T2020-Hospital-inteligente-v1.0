@@ -1,5 +1,6 @@
 package com.example.getabed;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -18,6 +19,11 @@ import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,6 +31,7 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity {
     static final int GOOGLE_SIGN_IN= 123;
     FirebaseAuth mAuth;
+    DatabaseReference db;
     GoogleSignInClient mGoogleSignInClient;
     Button btn_login;
     @Override
@@ -79,8 +86,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateUI(FirebaseUser user){
+        addToEnfermeros(user);
         Intent intent= new Intent(getBaseContext(), com.example.getabed.Menu.class);
         startActivity(intent);
+    }
+
+    private void addToEnfermeros(FirebaseUser user){
+            db= FirebaseDatabase.getInstance().getReference().child("hospital-prueba").child("enfermeros");
+            DatabaseReference userDb= db.child(user.getUid());
+            userDb.child("nombre").setValue(user.getDisplayName());
+            userDb.child("email").setValue(user.getEmail());
+            userDb.child("imagen").setValue(user.getPhotoUrl().toString());
+
     }
 
     @Override
