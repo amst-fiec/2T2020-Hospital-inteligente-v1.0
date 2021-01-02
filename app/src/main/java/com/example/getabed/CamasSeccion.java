@@ -73,7 +73,7 @@ public class CamasSeccion extends Fragment {
                             String estado= (String) child.child("dispositivo").child("estado").getValue();
                             String id= (String) child.getKey();
                             String piso= (String) child.child("piso").getValue().toString();
-                            String bateria = (String) child.child("dispositivo").child("bateria").getValue();
+                            String bateria = (String) child.child("dispositivo").child("bateria").getValue().toString();
                             Cama cama= new Cama(id,estado,piso,bateria);
                             camas.add(cama);
                         }
