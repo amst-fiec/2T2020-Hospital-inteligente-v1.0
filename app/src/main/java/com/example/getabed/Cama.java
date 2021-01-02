@@ -4,11 +4,13 @@ public class Cama {
     private String id;
     private String estado;
     private String piso;
+    private String bateria;
 
-    public Cama(String id, String estado, String piso) {
+    public Cama(String id, String estado, String piso,String bateria) {
         this.id = id;
         this.estado=estado;
         this.piso=piso;
+        this.bateria=bateria;
     }
 
     public String getId() {
@@ -33,6 +35,10 @@ public class Cama {
 
     public void setPiso(String piso) {
         this.piso = piso;
+    }
+
+    public String getBateria() {
+        return bateria;
     }
 
     @Override

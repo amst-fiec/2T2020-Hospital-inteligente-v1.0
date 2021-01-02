@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -17,10 +18,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.ArrayList;
+
 
 public class EstadoCamas extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spinner;
     LinearLayout view;
+    CamasSeccion fragment;
 
 
     @Override
@@ -33,7 +37,7 @@ public class EstadoCamas extends AppCompatActivity implements AdapterView.OnItem
         view= (LinearLayout) findViewById(R.id.view);
         Bundle bundle= new Bundle();
         bundle.putString("idSeccion","1");
-        CamasSeccion fragment= new CamasSeccion();
+        fragment= new CamasSeccion();
         fragment.setArguments(bundle);
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
 
@@ -47,13 +51,17 @@ public class EstadoCamas extends AppCompatActivity implements AdapterView.OnItem
                         new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                Seccion[] secciones=new Seccion[10];
-                                int i=0;
+                                ArrayList<Seccion> arrayList= new ArrayList();
                                 for(DataSnapshot child: snapshot.getChildren()){
-
-                                    Seccion seccion= new Seccion(child.getKey(),"Hospital");
-                                    secciones[i]=seccion;
-                                    i++;
+                                    String nombre= (String) child.child("nombre").getValue();
+                                    Seccion seccion= new Seccion(child.getKey(),nombre);
+                                    arrayList.add(seccion);
+                                }
+                                int size= arrayList.size();
+                                Seccion[] secciones= new Seccion[size];
+                                for(int i =0 ; i<size;i++){
+                                    Seccion sec= arrayList.get(i);
+                                    secciones[i]= sec;
                                 }
                                 SpinAdapter arrayAdapter= new SpinAdapter(getApplicationContext(), android.R.layout.simple_spinner_item,secciones);
 
@@ -72,11 +80,11 @@ public class EstadoCamas extends AppCompatActivity implements AdapterView.OnItem
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             Seccion seccion = (Seccion) spinner.getItemAtPosition(position);
+            fragment.obtenerCamas(seccion.getId());
         Log.d("Seleccion", "onItemSelected: Seccion");
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
-
     }
 }

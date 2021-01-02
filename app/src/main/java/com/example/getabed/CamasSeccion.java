@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,7 +63,7 @@ public class CamasSeccion extends Fragment {
 
     }
 
-    private void obtenerCamas(String id){
+    public void obtenerCamas(String id){
         FirebaseDatabase.getInstance().getReference().child("hospital-prueba/secciones/").child(id).child("camas").addValueEventListener(
                 new ValueEventListener() {
                     @Override
@@ -72,12 +73,13 @@ public class CamasSeccion extends Fragment {
                             String estado= (String) child.child("dispositivo").child("estado").getValue();
                             String id= (String) child.getKey();
                             String piso= (String) child.child("piso").getValue().toString();
-                            Cama cama= new Cama(id,estado,piso);
+                            String bateria = (String) child.child("dispositivo").child("bateria").getValue();
+                            Cama cama= new Cama(id,estado,piso,bateria);
                             camas.add(cama);
                         }
-                        Log.d("d", "onDataChange: "+camas.toString());
                         CamasAdapter adapter= new CamasAdapter(getContext(),camas);
                         gridView.setAdapter(adapter);
+                        gridView.setGravity(Gravity.CENTER);
                     }
 
                     @Override
