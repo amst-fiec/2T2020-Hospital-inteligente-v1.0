@@ -47,7 +47,7 @@ public class CamasAdapter extends BaseAdapter {
         TextView estadoView= (TextView) convertView.findViewById(R.id.estadoCama);
         estadoView.setText(cama.getEstado());
         TextView bateriaView= (TextView) convertView.findViewById(R.id.bateriaView);
-        bateriaView.setText(bateriaView.getText()+cama.getBateria());
+        bateriaView.setText(bateriaView.getText()+cama.getBateria()+" %");
         return convertView;
     }
 }

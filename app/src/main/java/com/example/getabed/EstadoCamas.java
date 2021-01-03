@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -75,6 +76,13 @@ public class EstadoCamas extends AppCompatActivity implements AdapterView.OnItem
                         }
                 );
 
+    }
+
+    public void irGrafico(View view){
+        Intent intent= new Intent(getBaseContext(),GraficoDisponibilidad.class);
+        Seccion seccion= (Seccion) spinner.getSelectedItem();
+        intent.putExtra("seccionId",seccion.getId());
+        startActivity(intent);
     }
 
     @Override
