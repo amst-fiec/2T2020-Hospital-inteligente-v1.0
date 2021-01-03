@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Splash_Screen"
-    android:background="#BDD7EE">
+    android:background="#EE60E9FB"
+    tools:context=".Splash_Screen">
 
     <ImageView
         android:id="@+id/splash_screen"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="408dp"
+        android:layout_height="666dp"
         android:src="@drawable/logotipo_proyecto1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-33dp" />
-
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="32dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,8 +34,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33512b78-4f0f-49f9-9428-08265987fe17" name="Default Changelist" comment="añadida imagenes de camas ocupada/desocupada">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/GraficoDisponibilidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_grafico_disponibilidad.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fondo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fondo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/borde_redondo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -48,25 +49,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/GetABed.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/GetABed.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/CamasAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/CamasAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/EstadoCamas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/EstadoCamas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_estado_camas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_estado_camas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_camas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ingreso.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ingreso.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash__screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash__screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Develop]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -219,6 +219,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -240,8 +241,8 @@
     <property name="DEBUGGABLE_DEVICE" value="Develop [emulator-5554]" />
     <property name="DEBUGGABLE_PROCESS" value="com.example.getabed" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Develop" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-31T15:28:31.400Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="ce11182b90af9ced0b" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-03T07:49:48.714Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -249,6 +250,8 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="android-custom-view/Users/davidmendozaloor/Library/Android/sdk/sources/android-30/android/widget/AbsListView.java_SELECTED" value="AbsListView" />
     <property name="android-custom-view/Users/davidmendozaloor/Library/Android/sdk/sources/android-30/android/widget/GridView.java_SELECTED" value="GridView" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
     <property name="multi-representation-preview/Users/davidmendozaloor/Library/Android/sdk/sources/android-30/android/widget/AbsListView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/Users/davidmendozaloor/Library/Android/sdk/sources/android-30/android/widget/GridView.java_selected" value="Custom views" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -256,6 +259,9 @@
   <component name="RecentsManager">
     <key name="android.template.-1512496070">
       <recent name="com.example.getabed" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marug\Desktop\Personal\Espol\Octavo-noveno\app moviles\GetABed\app\src\main\res\drawable-mdpi" />
     </key>
     <key name="android.template.18103568">
       <recent name="com.example.getabed" />
@@ -476,6 +482,14 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="100" y="125" width="1592" height="895" key="AVDManager/-1920.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1608753264508" />
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog" timestamp="1609654716001">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="95" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1609654716001" />
+    <state x="486" y="126" key="AndroidCreateXmlResourceDialog" timestamp="1609657022238">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="486" y="126" key="AndroidCreateXmlResourceDialog/0.0.1280.680@0.0.1280.680" timestamp="1609657022238" />
     <state x="500" y="323" key="AndroidProcessChooserDialog" timestamp="1609431567800">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
@@ -541,6 +555,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1641" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978397019" />
+    <state x="452" y="118" key="chooseDestDirectoryDialog" timestamp="1609651793046">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="452" y="118" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1609651793046" />
     <state x="1858" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607089441308">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>

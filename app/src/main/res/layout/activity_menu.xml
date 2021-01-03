@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo">
+    android:background="@drawable/fondo2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
             android:layout_height="20dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_camasdisponibles"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -49,15 +49,16 @@
             android:onClick="verCamasDisponibles"
             android:paddingVertical="25dp"
             android:text="Ver camas disponibles"
-            android:textSize="20dp"
-            app:backgroundTint="#2F7AC5" />
+            android:textSize="23dp"
+            app:backgroundTint="#2F7AC5"
+            android:background="@drawable/borde_redondo"/>
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="20dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_cerrarsesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -65,8 +66,9 @@
             android:onClick="cerrarSesion"
             android:paddingVertical="25dp"
             android:text="Cerrar Sesion"
-            android:textSize="20dp"
-            app:backgroundTint="#49535D" />
+            android:textSize="30dp"
+            app:backgroundTint="#49535D"
+            android:background="@drawable/borde_redondo"/>
 
         <Space
             android:layout_width="match_parent"
