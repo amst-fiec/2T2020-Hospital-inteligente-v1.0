@@ -31,7 +31,6 @@ public class Menu extends AppCompatActivity {
                 finish();
             }
         });
-        //cerrarSesion();
     }
 
     public void verCamasDisponibles(View view){
@@ -48,17 +47,17 @@ public class Menu extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        //int id = item.getItemId();
-        //if (id == R.id.button_cerrarsesion) {
+        int id = item.getItemId();
+        if (id == R.id.button_cerrarsesion) {
             //cerrarSesion();
-            //return true;
-        //}
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
     private void cerrarSesion(){
         Intent intent= new Intent(getBaseContext(),MainActivity.class);
-        //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }
 }
