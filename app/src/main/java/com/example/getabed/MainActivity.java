@@ -3,6 +3,7 @@ package com.example.getabed;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -27,6 +28,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     static final int GOOGLE_SIGN_IN= 123;
@@ -65,7 +67,11 @@ public class MainActivity extends AppCompatActivity {
                     updateUI(null);
                 }
             }catch (ApiException e){
-                Log.w("TAG","Fallo el inicio de sesión con google.", e);
+                Context context = getApplicationContext();
+                CharSequence text = "Error al iniciar sesión";
+                int duration = Toast.LENGTH_SHORT;
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
             }
         }
     }
