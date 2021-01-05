@@ -11,7 +11,7 @@
             android:type="sweep"
             android:centerY="0.5"
             android:endColor="#ff0000"
-            android:centerColor="#00f1d1d1d"
-            android:startColor="#00f1d1d1d"/>
+            android:centerColor="#f1d1d1"
+            android:startColor="#1d1d1d"/>
     </shape>
 </rotate>

@@ -33,7 +33,7 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 psignOut.setVisibility(View.VISIBLE);
                 mAuth.signOut();
-                psignOut.setVisibility(View.GONE);
+                //EpsignOut.setVisibility(View.GONE);
                 startActivity(new Intent(Menu.this,MainActivity.class));
                 Toast.makeText(Menu.this, "Cierre de sesión", Toast.LENGTH_SHORT).show();
                 finish();
