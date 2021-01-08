@@ -84,5 +84,14 @@
         app:backgroundTint="#FF8A65"
         android:background="@drawable/borde_redondo"/>
 
+    <ImageView
+        android:id="@+id/image_googlelogo"
+        android:layout_width="303dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="55dp"
+        android:gravity="center_horizontal"
+        app:srcCompat="@drawable/googlelogo" />
+
 
 </LinearLayout>
