@@ -104,6 +104,8 @@ public class MainActivity extends AppCompatActivity {
     private void updateUI(FirebaseUser user){
         addToEnfermeros(user);
         Intent intent= new Intent(getBaseContext(), com.example.getabed.Menu.class);
+        intent.putExtra("nombre",user.getDisplayName());
+        intent.putExtra("imagen",String.valueOf(user.getPhotoUrl()));
         startActivity(intent);
     }
 

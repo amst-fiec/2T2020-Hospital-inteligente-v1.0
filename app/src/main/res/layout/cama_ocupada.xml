@@ -8,7 +8,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:src="@drawable/cama_ocupada">
+        android:src="@drawable/cama_desocupada">
 
     </ImageView>
     <TextView
@@ -26,6 +26,7 @@
         android:textSize="15dp"
         android:gravity="center"
         android:text="Estado"
+        android:textStyle="italic"
         ></TextView>
     <TextView
         android:id="@+id/bateriaView"

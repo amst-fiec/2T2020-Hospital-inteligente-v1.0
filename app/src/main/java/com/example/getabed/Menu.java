@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
@@ -17,12 +20,17 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.GoogleApi;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.firebase.auth.FirebaseAuth;
+import com.squareup.picasso.Picasso;
+
+import java.net.URL;
 
 public class Menu extends AppCompatActivity {
     private Button bsignOut;
     private ProgressBar psignOut;
     private FirebaseAuth mAuth;
     private GoogleSignInOptions gso;
+    private TextView saludo;
+    private ImageView imagenPerfil;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +38,13 @@ public class Menu extends AppCompatActivity {
         mAuth= FirebaseAuth.getInstance();
         bsignOut = (Button) findViewById(R.id.button_cerrarsesion);
         psignOut = (ProgressBar) findViewById(R.id.progressBar2);
+       saludo= (TextView) findViewById(R.id.saludo);
+       imagenPerfil= (ImageView) findViewById(R.id.fotoPerfil);
+       Intent intent= getIntent();
+       saludo.setText(intent.getStringExtra("nombre"));
+       String foto= intent.getStringExtra("imagen");
+        Log.d("Imagen", "onCreate: "+foto);
+        Picasso.with(getApplicationContext()).load(foto).into(imagenPerfil);
 
 
         bsignOut.setOnClickListener(new View.OnClickListener() {

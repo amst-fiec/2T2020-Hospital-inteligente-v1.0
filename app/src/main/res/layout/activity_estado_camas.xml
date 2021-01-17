@@ -5,32 +5,27 @@
     android:id="@+id/view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".EstadoCamas">
 
-    <TextView
-        android:id="@+id/camas_uci"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:background="#00000000"
-        android:gravity="center"
-        android:text="Camas en UCI"
-        android:textSize="40dp" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:layout_marginTop="20dp" />
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/borde_redondo"
+        android:layout_marginTop="15dp" />
     <TextView
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="Camas"
         android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_gravity="left"
         android:textColor="@color/black"
         ></TextView>
@@ -42,7 +37,7 @@
     </FrameLayout>
 
     <Button
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:id="@+id/buttonGrafico"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

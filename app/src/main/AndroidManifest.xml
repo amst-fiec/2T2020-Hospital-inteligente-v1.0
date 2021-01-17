@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GetABed">
         <activity android:name=".GraficoDisponibilidad"></activity>
-        <activity android:name=".EstadoCamas" />
+        <activity android:name=".EstadoCamas"
+            android:label="Estado de Camas"
+            />
         <activity android:name=".Menu" />
         <activity
             android:name=".Splash_Screen"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.Design.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
