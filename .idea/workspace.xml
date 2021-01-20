@@ -53,17 +53,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ingreso.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ingreso.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Splash_Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/getabed/Splash_Screen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,41 +510,41 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="500" y="323" key="AndroidProcessChooserDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1609431567800" />
-    <state width="639" height="244" key="GridCell.Tab.0.bottom" timestamp="1611180666102">
+    <state width="1282" height="244" key="GridCell.Tab.0.bottom" timestamp="1611183076946">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state width="753" height="285" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1792.1095@-1920.25.1920.1055" timestamp="1610924665508" />
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726389" />
     <state width="1878" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531251" />
     <state width="1878" height="280" key="GridCell.Tab.0.bottom/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224617" />
-    <state width="639" height="244" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1611180666102" />
+    <state width="1282" height="244" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1611183076946" />
     <state width="753" height="285" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1610115914418" />
-    <state width="639" height="244" key="GridCell.Tab.0.center" timestamp="1611180666102">
+    <state width="1282" height="244" key="GridCell.Tab.0.center" timestamp="1611183076942">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state width="753" height="285" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1792.1095@-1920.25.1920.1055" timestamp="1610924665508" />
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726388" />
     <state width="1878" height="280" key="GridCell.Tab.0.center/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531251" />
     <state width="1878" height="280" key="GridCell.Tab.0.center/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224616" />
-    <state width="639" height="244" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1611180666102" />
+    <state width="1282" height="244" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1611183076942" />
     <state width="753" height="285" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1610115914418" />
-    <state width="639" height="244" key="GridCell.Tab.0.left" timestamp="1611180666101">
+    <state width="1282" height="244" key="GridCell.Tab.0.left" timestamp="1611183076942">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state width="753" height="285" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1792.1095@-1920.25.1920.1055" timestamp="1610924665508" />
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726388" />
     <state width="1878" height="280" key="GridCell.Tab.0.left/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531250" />
     <state width="1878" height="280" key="GridCell.Tab.0.left/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224616" />
-    <state width="639" height="244" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1611180666101" />
+    <state width="1282" height="244" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1611183076942" />
     <state width="753" height="285" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1610115914417" />
-    <state width="639" height="244" key="GridCell.Tab.0.right" timestamp="1611180666102">
+    <state width="1282" height="244" key="GridCell.Tab.0.right" timestamp="1611183076943">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state width="753" height="285" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1792.1095@-1920.25.1920.1055" timestamp="1610924665508" />
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606978726389" />
     <state width="1878" height="280" key="GridCell.Tab.0.right/0.25.1792.1095/1792.65.1920.977@1792.65.1920.977" timestamp="1607061531251" />
     <state width="1878" height="280" key="GridCell.Tab.0.right/0.25.1792.1095/1792.65.1920.982@1792.65.1920.982" timestamp="1607061224617" />
-    <state width="639" height="244" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1611180666102" />
+    <state width="1282" height="244" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1611183076943" />
     <state width="753" height="285" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1610115914418" />
     <state width="1338" height="300" key="GridCell.Tab.1.bottom" timestamp="1609431687644">
       <screen x="0" y="25" width="1792" height="1095" />
