@@ -15,6 +15,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.FirebaseAuth;
@@ -25,6 +26,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -110,11 +112,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void addToEnfermeros(FirebaseUser user){
-            db= FirebaseDatabase.getInstance().getReference().child("hospital-prueba").child("enfermeros");
-            DatabaseReference userDb= db.child(user.getUid());
-            userDb.child("nombre").setValue(user.getDisplayName());
-            userDb.child("email").setValue(user.getEmail());
-            userDb.child("imagen").setValue(user.getPhotoUrl().toString());
+
+        FirebaseMessaging.getInstance().getToken()
+                .addOnCompleteListener(new OnCompleteListener<String>() {
+                    @Override
+                    public void onComplete(@NonNull Task<String> task) {
+                        if (!task.isSuccessful()) {
+                            Log.w("TokenError", "Fetching FCM registration token failed", task.getException());
+                            return;
+                        }
+
+                        // Get new FCM registration token
+                        String token = task.getResult();
+                        db= FirebaseDatabase.getInstance().getReference().child("hospital-prueba").child("enfermeros");
+                        DatabaseReference userDb= db.child(user.getUid());
+                        userDb.child("nombre").setValue(user.getDisplayName());
+                        userDb.child("email").setValue(user.getEmail());
+                        userDb.child("imagen").setValue(user.getPhotoUrl().toString());
+                        userDb.child("token_notification").setValue(token);
+                    }
+                });
 
     }
 
