@@ -1,6 +1,8 @@
 package com.example.getabed;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +10,10 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,6 +24,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.GoogleApi;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.net.URL;
@@ -31,6 +39,9 @@ public class Menu extends AppCompatActivity {
     private GoogleSignInOptions gso;
     private TextView saludo;
     private ImageView imagenPerfil;
+    private SwitchCompat switchNotificaciones;
+    private  String id;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +54,18 @@ public class Menu extends AppCompatActivity {
        Intent intent= getIntent();
        saludo.setText(intent.getStringExtra("nombre"));
        String foto= intent.getStringExtra("imagen");
-        Log.d("Imagen", "onCreate: "+foto);
+       id= intent.getStringExtra("id");
         Picasso.with(getApplicationContext()).load(foto).into(imagenPerfil);
+        switchNotificaciones= findViewById(R.id.notificacionSwitch);
+        obtenerEstadoPerfil();
+        switchNotificaciones.setOnCheckedChangeListener(
+                new CompoundButton.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                        onChecked(isChecked);
+                    }
+                }
+        );
 
 
         bsignOut.setOnClickListener(new View.OnClickListener() {
@@ -62,6 +83,37 @@ public class Menu extends AppCompatActivity {
                 finish();
             }
         });
+    }
+
+    private void obtenerEstadoPerfil(){
+        FirebaseDatabase.getInstance().getReference().child("/hospital-prueba/enfermeros/"+id).addValueEventListener(
+                new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        String estado= (String) snapshot.child("estado").getValue();
+                        Log.d("de", "onDataChange: "+estado);
+                        if(estado != null && estado.equals("En espera")){
+                            switchNotificaciones.setChecked(true);
+                        }else{
+                            switchNotificaciones.setChecked(false);
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                }
+        );
+    }
+
+    public void onChecked( boolean checked){
+        if(checked){
+            FirebaseDatabase.getInstance().getReference().child("/hospital-prueba/enfermeros/"+id+"/estado").setValue("En espera");
+        }else{
+            FirebaseDatabase.getInstance().getReference().child("/hospital-prueba/enfermeros/"+id+"/estado").setValue("Disponible");
+
+        }
     }
 
     public void verCamasDisponibles(View view){

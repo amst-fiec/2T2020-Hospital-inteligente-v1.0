@@ -108,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(getBaseContext(), com.example.getabed.Menu.class);
         intent.putExtra("nombre",user.getDisplayName());
         intent.putExtra("imagen",String.valueOf(user.getPhotoUrl()));
+        intent.putExtra("id",user.getUid());
         startActivity(intent);
     }
 

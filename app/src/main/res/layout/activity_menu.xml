@@ -45,17 +45,36 @@
             android:layout_height="200dp"
             android:maxHeight="100dp"
             app:srcCompat="@drawable/logotipo_proyecto1" />
-
-       <Space
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="80dp" />
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avisar cuando se desocupen camas"
+                android:textStyle="bold"
+                android:textSize="20dip"
+                >
+            </TextView>
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/notificacionSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ></androidx.appcompat.widget.SwitchCompat>
 
+
+        </LinearLayout>
         <Button
             android:id="@+id/button_camasdisponibles"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
             android:onClick="verCamasDisponibles"
             android:paddingVertical="10dp"
             android:text="Ver camas disponibles"

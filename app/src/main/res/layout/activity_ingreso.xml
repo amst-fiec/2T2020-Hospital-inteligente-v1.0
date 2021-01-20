@@ -22,8 +22,8 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
         android:maxHeight="70dp"
         app:srcCompat="@drawable/logotipo_proyecto1" />
 
@@ -36,9 +36,10 @@
         android:background="@drawable/borde_redondo"
         android:ems="10"
         android:hint="Usuario"
-        android:gravity="center"
+        android:paddingVertical="5dip"
+        android:paddingHorizontal="20dip"
         android:inputType="textPersonName"
-        android:textSize="35dp" />
+        android:textSize="25dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -49,23 +50,24 @@
         android:background="@drawable/borde_redondo"
         android:ems="10"
         android:hint="Contraseña"
+        android:paddingVertical="5dip"
+        android:paddingHorizontal="20dip"
         android:inputType="textPassword"
-        android:gravity="center"
-        android:textSize="35dp" />
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/button_ingreso"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/borde_redondo"
         android:gravity="center_horizontal"
         android:text="Ingresar"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="15dp"
+        android:background="@drawable/borde_redondo"
         app:backgroundTint="#FF8A65" />
 
     <Button
@@ -77,10 +79,10 @@
         android:layout_marginRight="20dp"
         android:gravity="center_horizontal"
         android:onClick="iniciarSesion"
-        android:text="Iniciar Sesión"
+        android:text="Inicio sesion con google"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="15dp"
         app:backgroundTint="#FF8A65"
         android:background="@drawable/borde_redondo"/>
 
