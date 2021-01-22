@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_fondo.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-v24\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_fondo2.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-mdpi\\fondo2.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_battery.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-hdpi\\battery.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_battery.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-xxhdpi\\battery.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_camas.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\layout\\fragment_camas.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_cama_ocupada.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\layout\\cama_ocupada.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_battery.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\battery.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ingreso.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\layout\\activity_ingreso.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_battery.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\battery.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cama_ocupada.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-v24\\cama_ocupada.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_googlelogo.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-xhdpi\\googlelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_estado_camas.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\layout\\activity_estado_camas.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_battery.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\battery.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logotipo_proyecto1.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-v24\\logotipo_proyecto1.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_borde_redondo.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable\\borde_redondo.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash__screen.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\layout\\activity_splash__screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_fondo3.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-mdpi\\fondo3.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cama_ocupado.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable\\cama_ocupado.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cama_desocupada.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable\\cama_desocupada.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_photo.jpg.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable\\splash_photo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_battery.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-mdpi\\battery.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo_proyecto.PNG.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-v24\\logo_proyecto.PNG"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_grafico_disponibilidad.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\layout\\activity_grafico_disponibilidad.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progressbar_design.xml.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable\\progressbar_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_battery.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\drawable-xhdpi\\battery.png"
+    },
+    {
+        "merged": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    }
+]

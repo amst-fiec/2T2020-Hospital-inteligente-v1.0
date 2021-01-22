@@ -1,0 +1,4 @@
+#Fri Jan 22 08:50:49 COT 2021
+base.0=C\:\\Users\\bolic\\AndroidStudioProjects\\2T2020-Ocupaci-n-de-camas-en-la-UCI-v1.0\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -47,9 +47,9 @@ public class CamasAdapter extends BaseAdapter {
             img.setImageResource(R.drawable.cama_desocupada);
             estadoView.setTextColor(Color.parseColor("#04A04B"));
         }
-
+        String bateria= cama.getBateria().substring(0,2);
         TextView bateriaView= (TextView) convertView.findViewById(R.id.bateriaView);
-        bateriaView.setText(bateriaView.getText()+cama.getBateria()+" %");
+        bateriaView.setText(bateriaView.getText()+bateria+" %");
         return convertView;
     }
 }
