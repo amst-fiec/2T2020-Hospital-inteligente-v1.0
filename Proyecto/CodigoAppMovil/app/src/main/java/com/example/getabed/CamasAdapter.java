@@ -39,15 +39,21 @@ public class CamasAdapter extends BaseAdapter {
        TextView idView= (TextView) convertView.findViewById(R.id.idCama);
         idView.setText(idView.getText()+cama.getId());
         TextView estadoView= (TextView) convertView.findViewById(R.id.estadoCama);
-        estadoView.setText(cama.getEstado());
+
         if ( cama.getEstado().equals("Ocupado")) {
+            estadoView.setText(cama.getEstado());
             img.setImageResource(R.drawable.cama_ocupado);
             estadoView.setTextColor(Color.parseColor("#E6352B"));
         }else{
+            estadoView.setText("Desocupado");
             img.setImageResource(R.drawable.cama_desocupada);
             estadoView.setTextColor(Color.parseColor("#04A04B"));
         }
-        String bateria= cama.getBateria().substring(0,2);
+        String bateria= cama.getBateria();
+        if(bateria.length()>2){
+            bateria= cama.getBateria().substring(0,2);
+        }
+
         TextView bateriaView= (TextView) convertView.findViewById(R.id.bateriaView);
         bateriaView.setText(bateriaView.getText()+bateria+" %");
         return convertView;
