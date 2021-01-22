@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //Metodo para el inicio de sesion de google
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct){
         Log.d("TAG","firebaseAuthWithGoogle:" + acct.getId());
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(),null);
@@ -97,8 +98,13 @@ public class MainActivity extends AppCompatActivity {
                         FirebaseUser user = mAuth.getCurrentUser();
                         updateUI(user);
                     } else {
+                        Context context = getApplicationContext();
                         System.out.println("error");
-                        updateUI(null);
+                        CharSequence text = "Fallo de conexion";
+                        int duration = Toast.LENGTH_SHORT;
+                        Toast toast = Toast.makeText(context, text, duration);
+                        toast.show();
+                        //updateUI(null);
                     }
                 });
     }

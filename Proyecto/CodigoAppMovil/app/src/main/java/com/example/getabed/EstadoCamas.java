@@ -46,6 +46,7 @@ public class EstadoCamas extends AppCompatActivity implements AdapterView.OnItem
         ft.commit();
     }
 
+    //Inicializa Spinner con el nombre de las secciones
     private void inicializarSpinner(){
         FirebaseDatabase.getInstance().getReference()
                 .child("hospital-prueba").child("secciones").addValueEventListener(

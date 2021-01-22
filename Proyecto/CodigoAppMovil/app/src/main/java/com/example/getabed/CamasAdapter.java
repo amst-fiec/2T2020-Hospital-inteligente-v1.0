@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -31,6 +32,8 @@ public class CamasAdapter extends BaseAdapter {
     public long getItemId(int i) {
         return i;
     }
+
+    //Metodo que crea cada elemento del grid view que representa la cama
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Cama cama= arrayList.get(position);
@@ -50,12 +53,24 @@ public class CamasAdapter extends BaseAdapter {
             estadoView.setTextColor(Color.parseColor("#04A04B"));
         }
         String bateria= cama.getBateria();
-        if(bateria.length()>2){
-            bateria= cama.getBateria().substring(0,2);
+        if(bateria.length()>2) {
+            bateria = cama.getBateria().substring(0, 2);
         }
+        mostrarAltertaBateriaBaja(cama);
+
+
 
         TextView bateriaView= (TextView) convertView.findViewById(R.id.bateriaView);
         bateriaView.setText(bateriaView.getText()+bateria+" %");
         return convertView;
+    }
+
+    private void mostrarAltertaBateriaBaja(Cama cama){
+        if(Integer.parseInt(cama.getBateria())<5){
+            CharSequence text = "Bateria del dispotivo "   +cama.getId()+" se esta agotando";
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
     }
 }

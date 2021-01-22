@@ -58,6 +58,7 @@ public class Menu extends AppCompatActivity {
         Picasso.with(getApplicationContext()).load(foto).into(imagenPerfil);
         switchNotificaciones= findViewById(R.id.notificacionSwitch);
         obtenerEstadoPerfil();
+        //Listener para habilitar o deshabilitar las notificaciones
         switchNotificaciones.setOnCheckedChangeListener(
                 new CompoundButton.OnCheckedChangeListener() {
                     @Override
@@ -107,6 +108,7 @@ public class Menu extends AppCompatActivity {
         );
     }
 
+    //Meotodo que cambia la habilitacion de notificaciones en Firebase
     public void onChecked( boolean checked){
         if(checked){
             FirebaseDatabase.getInstance().getReference().child("/hospital-prueba/enfermeros/"+id+"/estado").setValue("En espera");

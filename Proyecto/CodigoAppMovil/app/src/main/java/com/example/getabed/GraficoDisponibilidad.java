@@ -43,6 +43,8 @@ public class GraficoDisponibilidad extends AppCompatActivity {
         obtenerInfo();
     }
 
+    //obtenerInfo:
+    //Metodo que obtiene la informacion de las camas de firebase y construye el grafico
     private void  obtenerInfo(){
         FirebaseDatabase.getInstance().getReference().child("hospital-prueba")
                 .child("secciones").child(idSeccion).child("camas").addValueEventListener(
